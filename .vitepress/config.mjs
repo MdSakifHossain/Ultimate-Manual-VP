@@ -31,7 +31,6 @@ export default defineConfig({
         text: "Tailwind",
         collapsed: true,
         items: [
-          { text: "Start", link: "/tailwind/" },
           {
             text: "@import Font Import Issue",
             link: "/tailwind/font-import-issue",
@@ -42,8 +41,10 @@ export default defineConfig({
         text: "VSCode",
         collapsed: true,
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "Hide a Certain Folder",
+            link: "/vscode/hide-a-certain-folder.md",
+          },
         ],
       },
     ],
