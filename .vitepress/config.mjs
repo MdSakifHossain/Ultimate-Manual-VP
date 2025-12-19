@@ -69,6 +69,15 @@ export default defineConfig({
         "https://github.com/MdSakifHossain/Ultimate-Manual/edit/main/src/:path",
     },
   },
+
+  markdown: {
+    // theme: "material-theme-darker",
+    theme: {
+      light: "catppuccin-latte",
+      // dark: "material-theme-darker",
+      dark: "andromeeda",
+    },
+  },
 });
 
 // import { links } from "./some_link";

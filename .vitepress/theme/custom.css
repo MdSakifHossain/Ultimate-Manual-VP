@@ -1,0 +1,141 @@
+/* .vitepress/theme/custom.css */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cubano");
+
+:root {
+  --vp-font-family-base: "Roboto Mono", serif;
+  --vp-font-family-mono: "JetBrains Mono", serif;
+
+  font-optical-sizing: auto;
+}
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: "Cubano", serif;
+  font-weight: 100 !important;
+}
+
+::selection {
+  background: #71717a;
+  color: #ffffff;
+}
+
+/* Every Docs Pages very bottom Link */
+p.VPLastUpdated {
+  font-family: "Outfit", serif;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+}
+
+/**
+ * 👇 Navbar ❄️
+ * -------------------------------------------------------------------------- */
+
+/* Website Name on the Website Header */
+a.title span {
+  font-family: "Cubano", serif;
+}
+
+/* "Website Navlink" */
+.menu .VPNavBarMenuLink {
+  font-family: "Outfit", serif;
+  font-weight: 400 !important;
+}
+
+/**
+ * 👇 HomePage ❄️
+ * -------------------------------------------------------------------------- */
+
+/* "Homepage big, bold text" (With color) */
+span.name.clip {
+  font-family: "Cubano", serif;
+}
+
+/* "Homepage Big, bold text" (Without color) */
+span.text {
+  font-family: "Cubano", serif;
+}
+
+/* "Homepage Tagline" */
+p.tagline {
+  font-family: "Roboto Mono", serif;
+  font-weight: 400 !important;
+}
+
+/* Homepages little article box's "Title" */
+article.box h2.title {
+  font-family: "Outfit", serif;
+}
+
+/* Homepages little article box's "Text" */
+article.box p.details {
+  font-family: "JetBrains Mono", serif;
+  font-weight: 400 !important;
+}
+
+/**
+ * 👇 Footer ❄️
+ * -------------------------------------------------------------------------- */
+
+/* The whole "Footer" */
+footer.VPFooter {
+  /* The First Text */
+  p.message {
+    font-family: "Outfit", serif;
+  }
+
+  /* The Second Text */
+  p.copyright {
+    font-family: "Outfit", serif;
+  }
+}
+
+/**
+ * 👇 Doc Page ❄️
+ * -------------------------------------------------------------------------- */
+
+/* Docs Page `On this page` text. (Big Screen) */
+.outline-title {
+  font-family: "Cubano", serif;
+}
+
+/*
+  Docs Page `On this page` && `Menu` text. (Small Screen)
+  Text 2 Text are on the same line. (Just open the docs in a smaller screen)
+  And NO, i didn't looked for if `Both of the text` can be customized separately or not. 
+ */
+span.menu-text {
+  font-family: "Cubano", serif;
+}
+
+/* Doc Page "Sidebar" (Section Title) */
+h2.text {
+  font-family: "Outfit", serif;
+}
+
+/* Doc Page "Sidebar" (Section Link) */
+p.text {
+  font-family: "Outfit", serif;
+}
+
+/* Docs Page "On This Page" Dropdown (Small Screen) */
+div.items div.header a.top-link {
+  font-family: "Cubano", serif;
+}
+
+/**
+ *  some code from chatgpt
+ */
+/* .vp-doc pre {
+  font-size: 0.9rem;
+  line-height: 2;
+  border-radius: 12px;
+}
+
+.vp-doc code {
+  font-feature-settings: "liga" 1;
+} */
