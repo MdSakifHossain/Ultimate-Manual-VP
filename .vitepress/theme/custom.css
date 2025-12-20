@@ -44,6 +44,12 @@ a.title span {
 .menu .VPNavBarMenuLink {
   font-family: "Outfit", serif;
   font-weight: 400 !important;
+
+  transition: 150ms;
+}
+
+.menu .VPNavBarMenuLink.active {
+  font-weight: 600 !important;
 }
 
 /**
