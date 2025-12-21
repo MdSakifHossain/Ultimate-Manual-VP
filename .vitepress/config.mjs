@@ -67,6 +67,10 @@ export default defineConfig({
             text: "Customize Navbar",
             link: "/vitepress/customize-navbar.md",
           },
+          {
+            text: "Customize Footer",
+            link: "/vitepress/customize-Footer.md",
+          },
         ],
       },
     ],
