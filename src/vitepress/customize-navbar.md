@@ -128,7 +128,7 @@ export default defineConfig({
 
 Adding a dropdown is just adding `an object which has an array`.
 
-## Change Github Link
+## Social Links
 
 ```mjs:line-numbers [.vitepress/config.mjs] {6}
 import { defineConfig } from "vitepress";
