@@ -51,6 +51,20 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "VitePress",
+        collapsed: true,
+        items: [
+          {
+            text: "Get Started",
+            link: "/vitepress/get-started-with-vitepress.md",
+          },
+          {
+            text: "Customize Homepage",
+            link: "/vitepress/customize-homepage.md",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
