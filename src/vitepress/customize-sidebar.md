@@ -72,10 +72,14 @@ export default defineConfig({
 });
 ```
 
-Think of a Section as a single bundle. Inside that bundle, drop at least two things:
+A Section is just one object. Give it at least two keys:
 
-- a little label called `text` (just a string),
-- and a pile of links called `items` (an array of objects).
+- `text` (string) – the heading of the section
+- `items` (array of objects) – the links
+
+If you want the block to start collapsed, also add:
+
+- `collapsed` (boolean, set to true)
 
 For Example:
 
