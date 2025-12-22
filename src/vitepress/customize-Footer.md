@@ -10,13 +10,13 @@ All i can say everything is done in:
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  // ...
   themeConfig: {
     // ==> in here <==
   },
-  // ...
 });
 ```
+
+Now go to the docs.
 
 ## Reference
 
