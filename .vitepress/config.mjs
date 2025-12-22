@@ -71,6 +71,10 @@ export default defineConfig({
             text: "Customize Footer",
             link: "/vitepress/customize-Footer.md",
           },
+          {
+            text: "Add Favicon",
+            link: "/vitepress/add-favicon.md",
+          },
         ],
       },
     ],
