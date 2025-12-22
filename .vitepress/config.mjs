@@ -83,6 +83,10 @@ export default defineConfig({
             text: "Add Search Fearture",
             link: "/vitepress/add-search.md",
           },
+          {
+            text: `Add "Edit this Page"`,
+            link: "/vitepress/add-edit-this-page",
+          },
         ],
       },
     ],
