@@ -79,6 +79,10 @@ export default defineConfig({
             text: "Customize Sidebar",
             link: "/vitepress/customize-sidebar.md",
           },
+          {
+            text: "Add Search Fearture",
+            link: "/vitepress/add-search.md",
+          },
         ],
       },
     ],
