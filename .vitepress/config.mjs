@@ -87,6 +87,10 @@ export default defineConfig({
             text: `Add "Edit this Page"`,
             link: "/vitepress/add-edit-this-page",
           },
+          {
+            text: `Add "Last Updated Timestamp"`,
+            link: "/vitepress/add-last-updated-timestamp",
+          },
         ],
       },
     ],
