@@ -75,6 +75,10 @@ export default defineConfig({
             text: "Add Favicon",
             link: "/vitepress/add-favicon.md",
           },
+          {
+            text: "Customize Sidebar",
+            link: "/vitepress/customize-sidebar.md",
+          },
         ],
       },
     ],
