@@ -105,6 +105,16 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "openRGB",
+        collapsed: true,
+        items: [
+          {
+            text: "Turn Off RAM LEDs",
+            link: "/openRGB/automatically-turn-off-ram-leds",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
