@@ -1,3 +1,7 @@
+---
+title: Technologies
+---
+
 # Technologies
 
 Technologies I Work With. Some of them which i always work with and some are literally just there to make me feel cool. ⚡🧠

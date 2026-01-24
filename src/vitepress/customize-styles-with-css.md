@@ -1,3 +1,7 @@
+---
+title: Customize Styles with CSS in VitePress
+---
+
 # Customize Styles with CSS in VitePress
 
 ## Note

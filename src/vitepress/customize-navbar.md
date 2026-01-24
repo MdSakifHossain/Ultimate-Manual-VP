@@ -1,3 +1,7 @@
+---
+title: Customize Navbar of VitePress
+---
+
 # Customize Navbar of VitePress
 
 ## Recap

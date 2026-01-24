@@ -1,3 +1,7 @@
+---
+title: Add "Last Updated Timestamp"
+---
+
 # Add "Last Updated Timestamp"
 
 ## Edit `config.mjs`

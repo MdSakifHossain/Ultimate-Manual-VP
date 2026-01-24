@@ -1,3 +1,7 @@
+---
+title: Add "Edit this Page"
+---
+
 # Add "Edit this Page"
 
 ## Quickie

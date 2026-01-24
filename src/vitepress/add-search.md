@@ -1,3 +1,7 @@
+---
+title: Add Search Feature on Vitepress Site
+---
+
 # Add Search Feature on Vitepress Site
 
 ## Quickie

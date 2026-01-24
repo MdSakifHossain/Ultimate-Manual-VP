@@ -1,3 +1,7 @@
+---
+title: Customize Homepage of VitePress
+---
+
 # Customize Homepage of VitePress
 
 Customizing is very Easy. Dont sweat you got this before and you will.

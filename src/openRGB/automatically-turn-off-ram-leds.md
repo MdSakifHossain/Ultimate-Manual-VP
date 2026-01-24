@@ -1,3 +1,7 @@
+---
+title: Automatically Turn Off RAM LEDs
+---
+
 # Automatically Turn Off RAM LEDs
 
 You can automate which can be done by Human interaction.

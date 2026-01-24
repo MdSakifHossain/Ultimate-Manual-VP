@@ -1,3 +1,7 @@
+---
+title: Customize Footer
+---
+
 # Customize Footer
 
 Its a piece of Cake. Even a little cat can do it.

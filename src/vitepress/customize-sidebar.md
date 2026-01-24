@@ -1,3 +1,7 @@
+---
+title: Customize Sidebar on VitePress Sites
+---
+
 # Customize Sidebar on VitePress Sites
 
 ## Quick Reference

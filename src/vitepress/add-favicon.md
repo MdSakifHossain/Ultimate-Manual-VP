@@ -1,3 +1,7 @@
+---
+title: Add Favicon on VitePress Site
+---
+
 # Add Favicon on VitePress Site
 
 ## Mental Model

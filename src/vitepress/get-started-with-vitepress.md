@@ -1,3 +1,7 @@
+---
+title: Get Started with VitePress
+---
+
 # Get Started with VitePress
 
 Look, you dense little shit, it’s just a docs maker... not rocket science. You slapped it together when you didnt gave full focus on this.

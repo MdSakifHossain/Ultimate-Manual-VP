@@ -1,3 +1,7 @@
+---
+title: Add File Icons For Codeblocks in VitePress
+---
+
 # Add File Icons For Codeblocks in VitePress
 
 ## Note

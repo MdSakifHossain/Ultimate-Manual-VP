@@ -1,3 +1,7 @@
+---
+title: Customize Default Syntax Highlighting
+---
+
 # Customize Default Syntax Highlighting
 
 The default Syntax highlighting was too close to vomit on the docs. 🤮
