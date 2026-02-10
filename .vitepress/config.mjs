@@ -4,6 +4,7 @@ import {
   groupIconVitePlugin,
   localIconLoader,
 } from "vitepress-plugin-group-icons";
+import { generateSidebar } from "vitepress-sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,100 +23,13 @@ export default defineConfig({
       { text: "Docs", link: "/getting-started" },
     ],
 
-    sidebar: [
-      {
-        text: "Getting Started",
-        link: "/getting-started",
-      },
-      {
-        text: "Technologies",
-        link: "/technologies",
-      },
-      {
-        text: "Tailwind",
-        collapsed: true,
-        items: [
-          {
-            text: "@import Font Import Issue",
-            link: "/tailwind/font-import-issue",
-          },
-        ],
-      },
-      {
-        text: "VSCode",
-        collapsed: true,
-        items: [
-          {
-            text: "Hide a Certain Folder",
-            link: "/vscode/hide-a-certain-folder",
-          },
-        ],
-      },
-      {
-        text: "VitePress",
-        collapsed: true,
-        items: [
-          {
-            text: "Get Started",
-            link: "/vitepress/get-started-with-vitepress",
-          },
-          {
-            text: "Customize Homepage",
-            link: "/vitepress/customize-homepage",
-          },
-          {
-            text: "Customize Navbar",
-            link: "/vitepress/customize-navbar",
-          },
-          {
-            text: "Customize Footer",
-            link: "/vitepress/customize-Footer",
-          },
-          {
-            text: "Add Favicon",
-            link: "/vitepress/add-favicon",
-          },
-          {
-            text: "Customize Sidebar",
-            link: "/vitepress/customize-sidebar",
-          },
-          {
-            text: "Add Search Fearture",
-            link: "/vitepress/add-search",
-          },
-          {
-            text: `Add "Edit this Page"`,
-            link: "/vitepress/add-edit-this-page",
-          },
-          {
-            text: `Add "Last Updated Timestamp"`,
-            link: "/vitepress/add-last-updated-timestamp",
-          },
-          {
-            text: `Change Syntax Highlighting`,
-            link: "/vitepress/customize-default-syntax-highlighting",
-          },
-          {
-            text: "Add File Icons",
-            link: "/vitepress/add-file-icons",
-          },
-          {
-            text: "Customize Styles with CSS",
-            link: "/vitepress/customize-styles-with-css",
-          },
-        ],
-      },
-      {
-        text: "openRGB",
-        collapsed: true,
-        items: [
-          {
-            text: "Turn Off RAM LEDs",
-            link: "/openRGB/automatically-turn-off-ram-leds",
-          },
-        ],
-      },
-    ],
+    sidebar: generateSidebar({
+      documentRootPath: "/src",
+      collapsed: true,
+      capitalizeFirst: true,
+      sortFolderTo: "bottom",
+      hyphenToSpace: true,
+    }),
 
     socialLinks: [
       {
