@@ -15,6 +15,7 @@
   "type": "module",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.15",
-    "vitepress-plugin-group-icons": "^1.6.5"
+    "vitepress-plugin-group-icons": "^1.6.5",
+    "vitepress-sidebar": "^1.33.1"
   }
 }

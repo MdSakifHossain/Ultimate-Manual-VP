@@ -163,18 +163,3 @@ export default defineConfig({
     ],
   },
 });
-
-// import { links } from "./some_link";
-// let html = ``;
-// const iconSize = 64;
-// const alignment = "left";
-// links.map((link) => {
-//   html += `
-// ## ${link.alt}
-
-// <p align="${alignment}">
-//   <img src="${link.link}" alt="${link.alt}" width="${iconSize}" height="${iconSize}" />
-// </p>
-// `;
-// });
-// console.log(html);
