@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev --host",
-    "build": "git fetch --unshallow && vitepress build",
+    "build_bak": "git fetch --unshallow && vitepress build",
+    "build": "vitepress build",
     "preview": "vitepress preview --host"
   },
   "keywords": [],
